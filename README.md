@@ -20,3 +20,4 @@ A simple and responsive web-based currency converter that allows users to conver
 
 ## Development Board
 ![Kanban Board](mid_dev1.png)
+![Kanban Board](mid_dev2.png)
