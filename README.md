@@ -36,8 +36,8 @@ A simple and responsive web-based currency converter that allows users to conver
    git clone https://github.com/yourusername/currency-converter.git
    cd currency-converter
    ```
-
-
+2. **Open `currency_converter.html` in your browser**  
+   Or use a local server for development.
 
 ## Testing
 
