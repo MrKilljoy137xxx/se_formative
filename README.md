@@ -19,5 +19,4 @@ A simple and responsive web-based currency converter that allows users to conver
 [Live Demo] (http://127.0.0.1:5500/currency_converter.html)
 
 ## Development Board
-![Kanban Board] (Mid-Development Screenshot1.png)
-![Kanban Board] (Mid-Development Screenshot1.png)
+![Kanban Board](Mid-Development Screenshot1.png)
