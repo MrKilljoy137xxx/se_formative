@@ -1,0 +1,43 @@
+<!-- Currency Converter Structure -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Converter</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="convertor_style.css">
+</head>
+<body>
+    <div class="converter-card">
+        <h1>Currency Converter</h1>
+        <form id="converter-form">
+            <div class="input-group">
+                <input type="number" id="amount" placeholder="Amount" required>
+                <select id="from-currency">
+                    <!-- Add flag icons using emojis or images -->
+                    <option value="USD">🇺🇸 USD</option>
+                    <option value="CAD">🇨🇦 CAD</option>
+                    <option value="EUR">🇪🇺 EUR</option>
+                    <option value="PKR">🇵🇰 PKR</option>
+                    <option value="BDT">🇧🇩 BDT</option>
+                    <option value="INR">🇮🇳 INR</option>
+                </select>
+                <button type="button" id="swap-btn" title="Swap Currencies">⇄</button>
+                <select id="to-currency">
+                    <option value="USD">🇺🇸 USD</option>
+                    <option value="CAD">🇨🇦 CAD</option>
+                    <option value="EUR">🇪🇺 EUR</option>
+                    <option value="PKR">🇵🇰 PKR</option>
+                    <option value="BDT">🇧🇩 BDT</option>
+                    <option value="INR">🇮🇳 INR</option>
+                </select>
+            </div>
+            <button type="submit" id="convert-btn" data-testid="convert-btn">Convert</button>
+        </form>
+        <div id="loading" style="display:none;">Loading...</div>
+        <div id="result"></div>
+        <div id="history"></div>
+    </div>
+    <script src="convertor_script.js"></script>
+</body>
+</html>

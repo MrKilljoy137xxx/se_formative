@@ -1,0 +1,77 @@
+/* CSS for Currency Converter */
+
+/* Apply a background color and center the content */
+body {
+    background: #183860;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Style the main container */
+.converter-card {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+    width: 500px;
+    text-align: center;
+}
+
+/* Style the title */
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 1rem;
+}
+
+/* Style the input fields and buttons */
+input, select, button {
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+#swap-btn {
+    background: #f0f0f0;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#swap-btn:hover {
+    background: #e0e0e0;
+}
+
+button[type="submit"] {
+    background: #0078d4;
+    color: #fff;
+    border: none;
+    margin-top: 1rem;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button[type="submit"]:hover {
+    background: #005fa3;
+}
+
+/* Style the result and history sections */
+#result {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #0078d4;
+}
+
+#history {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+}
