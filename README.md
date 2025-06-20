@@ -55,7 +55,7 @@ currency-converter/
 2. Select the source and target currencies.
 3. Click **Convert** to see the result.
 4. Use the swap button to quickly switch currencies.
-
+5. 
 ### Deployment
 
 This project can be deployed for free using [GitHub Pages](https://pages.github.com/):
@@ -63,6 +63,21 @@ This project can be deployed for free using [GitHub Pages](https://pages.github.
 - Push your code to GitHub.
 - Enable GitHub Pages in the repository settings.
 - Your site will be live at `https://yourusername.github.io/currency-converter/`.
+
+### Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- [ExchangeRate-API](https://www.exchangerate-api.com/) (or your chosen API)
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
 
 ## Testing
 
