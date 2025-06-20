@@ -49,7 +49,20 @@ currency-converter/
 ├── logo.png
 └── README.md
 ```
+### Usage
 
+1. Enter the amount you want to convert.
+2. Select the source and target currencies.
+3. Click **Convert** to see the result.
+4. Use the swap button to quickly switch currencies.
+
+### Deployment
+
+This project can be deployed for free using [GitHub Pages](https://pages.github.com/):
+
+- Push your code to GitHub.
+- Enable GitHub Pages in the repository settings.
+- Your site will be live at `https://yourusername.github.io/currency-converter/`.
 
 ## Testing
 
