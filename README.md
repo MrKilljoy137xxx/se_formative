@@ -16,7 +16,7 @@ A simple and responsive web-based currency converter that allows users to conver
 
 ## Demo
 
-[Live Demo] (http://127.0.0.1:5500/currency_converter.html)
+[Live Demo](http://127.0.0.1:5500/currency_converter.html)
 
 ## Development Board
-[Kanban Board](Mid-Development Screenshot1.png)
+![Kanban Board](Mid-Development_Screenshot1.png)
