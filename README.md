@@ -39,6 +39,18 @@ A simple and responsive web-based currency converter that allows users to conver
 2. **Open `currency_converter.html` in your browser**  
    Or use a local server for development.
 
+### File Structure
+
+```
+currency-converter/
+├── currency_converter.html
+├── convertor_style.css
+├── convertor_script.js
+├── logo.png
+└── README.md
+```
+
+
 ## Testing
 
 Below are the results displayed by using Google Lighthouse.
