@@ -38,3 +38,10 @@ A simple and responsive web-based currency converter that allows users to conver
    ```
 
 
+
+## Testing
+
+Below are the results displayed by using Lighthouse.
+
+![Lighthouse Results](lighthouse_results.png)
+
