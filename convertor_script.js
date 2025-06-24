@@ -4,6 +4,7 @@ document.getElementById('swap-btn').addEventListener('click', function() {
     [from.value, to.value] = [to.value, from.value];
 });
 
+
 document.getElementById('converter-form').addEventListener('submit', async function(e) {
     e.preventDefault();
     const amount = document.getElementById('amount').value;
